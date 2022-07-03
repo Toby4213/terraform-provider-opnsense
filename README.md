@@ -15,7 +15,7 @@ In your `main.tf` file, specify the version you want to use:
 ```hcl
 terraform {
   required_providers {
-    libvirt = {
+    opnsense = {
       source = "gxben/opnsense"
     }
   }
